@@ -119,8 +119,8 @@ Despite these models overfitting, consistent patterns were discovered.
 - Steps
 - Calories
 - Distance
-- Sd_norm_heart
-- resting_heart
+- Sd_Norm_Heart
+- Resting_Heart
 
 Bringing a combination of body durability, motion indicators, and exercise outcomes, their predicting power could’ve been associated with activity intensity, fitness levels, and subject participation.
 
