@@ -83,10 +83,10 @@ For our project, we tested six baseline models to classify physical activity cat
 
 | Model | Approximate Test Accuracy |
 |---|---|
-| SVM | ~42% |
 | Decision Tree | ~42% |
+| SVM | ~41% |
 | Logistic Regression | ~33% |
-| LDA | ~32% |
+| LDA | ~33% |
 | Naive Bayes | ~27% |
 | kNN | ~68% (severe overfit) |
 
