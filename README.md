@@ -1,4 +1,5 @@
-# Predicting Physical Activity Patterns From Wearable Health Metrics
+# Project Title
+#### Predicting Physical Activity Patterns From Wearable Health Metrics
 
 - This project explored wearable device data with machine learning techniques to classify physical activities from Apple Watch and Fitbit users.
 - Among 17 features trained, factors like heart rate, calories burned, step count, and distance traveled were applied in multi-classification models to identify physical activity patterns and distinctions.
