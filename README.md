@@ -92,11 +92,11 @@ For our project, we tested six baseline models to classify physical activity cat
 
 #### Tuned Model Performance
 
-**1. Tuned SVC: ~67% test accuracy**
-- Parameters → rbf kernel, C=100, gamma=0.01
+**1. Tuned SVC: ~70% test accuracy**
+- Parameters → rbf kernel, C=100, gamma=0.001
 
 **2. Tuned Decision Tree: ~76% test accuracy**
-- Parameters → max_depth=25, min_samples_split=2, min_samples_leaf=1
+- Parameters → max_depth=30, min_samples_split=2, min_samples_leaf=1
 
 ### Key Findings:
 
