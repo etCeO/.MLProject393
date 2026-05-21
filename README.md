@@ -83,11 +83,11 @@ For our project, we tested six baseline models to classify physical activity cat
 
 | Model | Approximate Test Accuracy |
 |---|---|
-| SVM | ~43% |
-| Decision Tree | ~43% |
+| SVM | ~42% |
+| Decision Tree | ~42% |
 | Logistic Regression | ~33% |
 | LDA | ~32% |
-| Naive Bayes | ~29% |
+| Naive Bayes | ~27% |
 | kNN | ~68% (severe overfit) |
 
 #### Tuned Model Performance
@@ -102,7 +102,7 @@ For our project, we tested six baseline models to classify physical activity cat
 
 1. Running and walking activities were classified most accurately in both baseline and tuning model performances (confusion matrices).
 2. Sitting and lying activities were confused across all models likely due to their similar intensity levels, an external factor requiring more investigation in our future work.
-3. Decision trees achieved the strongest performances overall, however, heavily overfit with increased complexity in the final model (training metrics reached almost 100% in tables).
+3. Decision trees achieved the strongest performances overall, however, heavily overfit with increased complexity in the final model (training metrics reached 100% in tables!).
 4. This case was the same for SVMs / SVCs though they achieved slightly lower testing accuracies than decision trees.
 5. kNNs demonstrated strong performances as well, but due to severe overfitting in baselines, we found these models too unstable to carry forward in our problem.
 6. As a whole, tuning hyperparameters through grid search for our best models proved beneficial for cross validation and testing metrics, however, resulted in overfitting.
@@ -114,12 +114,13 @@ We also compared the top 10 feature importance scores for both SVCs and Decision
 Despite these models overfitting, consistent patterns were discovered.
 
 **Best Physical Activity Classifiers and Key Health Measures:**
+- Steps_Times_Distance
 - Heart Rate
 - Steps
 - Calories
 - Distance
-- Weight
 - Sd_norm_heart
+- resting_heart
 
 Bringing a combination of body durability, motion indicators, and exercise outcomes, their predicting power could’ve been associated with activity intensity, fitness levels, and subject participation.
 
